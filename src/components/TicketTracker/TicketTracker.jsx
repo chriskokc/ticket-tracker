@@ -1,4 +1,4 @@
-import "./TickerTracker.scss";
+import "./TicketTracker.scss";
 
 const TickerTracker = () => {
     return (
