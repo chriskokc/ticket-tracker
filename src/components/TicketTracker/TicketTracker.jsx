@@ -1,8 +1,8 @@
-
+import "./TickerTracker.scss";
 
 const TickerTracker = () => {
     return (
-        <h1>Ticket Tracker</h1>
+        <h1 className="big-title">Ticket Tracker</h1>
     );
 };
 

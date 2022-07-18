@@ -1,0 +1,11 @@
+@use "./assets/base.scss";
+@use "./assets/variables.scss" as *;
+
+main {
+    text-align: center;
+    font-family: $main-font;
+    background-color: $background-color;
+    padding: 0.3rem;
+    height: 100vh;
+
+}

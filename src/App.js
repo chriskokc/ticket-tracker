@@ -3,9 +3,10 @@ import TickerTracker from "./components/TicketTracker/TicketTracker";
 
 const App = () => {
   return (
-    <TickerTracker />
+    <main>
+      <TickerTracker />
+    </main>
   );
 };
-
 
 export default App;
