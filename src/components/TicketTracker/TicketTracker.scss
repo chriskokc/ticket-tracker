@@ -5,8 +5,7 @@
     border: $border-color 2px solid;
     margin: 0.3rem auto 0;
     padding: 0.5rem;
-    height: 95vh;
-    
+   
     .big-title {
         width: 100%;
     }
@@ -18,7 +17,16 @@
         gap: 0.3rem;
     }
     
-
 }
 
+@media screen and (min-width: 768px) {
+    .ticker-tracker {
+        padding: 0.5rem auto;
+
+        .big-title {
+            font-size: 3rem;
+        }
+    }
+   
+}
 

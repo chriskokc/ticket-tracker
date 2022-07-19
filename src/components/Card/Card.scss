@@ -3,12 +3,26 @@
 
 .card {
     border: $border-color solid 2px;
+    background-color: $card-color;
     margin: 0.5rem 0.3rem;
-    padding: 0.2rem 0.3rem;
-    width: 15%;
-    height: 20%;
+    padding: 0.2rem 0.6rem 0.6rem;
+    width: 29%;
 
     &__content {
         font-size: 1rem;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        padding: 0.3rem 0.6rem 1rem;
+        text-align: center;
+        width: 18%;
+
+        &__content {
+            font-size: 1.3rem;
+            text-align: center;
+        }
     }
 }

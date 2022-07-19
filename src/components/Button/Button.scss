@@ -2,7 +2,7 @@
 @use "../../assets/variables" as *;
 
 .button {
-    background-color: $background-color;
+    background-color: $card-color;
     margin: 0.2rem;
 
     &__primary {
@@ -13,5 +13,11 @@
     &__secondary {
         border: none;
         font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        font-size: 1.5rem;
     }
 }
