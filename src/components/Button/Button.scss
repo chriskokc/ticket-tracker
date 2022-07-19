@@ -1,0 +1,17 @@
+@use "../../assets/base";
+@use "../../assets/variables" as *;
+
+.button {
+    background-color: $background-color;
+    margin: 0.2rem;
+
+    &__primary {
+        border-color: $border-color;
+        border-style: none none none solid;
+    }
+
+    &__secondary {
+        border: none;
+        font-weight: bold;
+    }
+}
