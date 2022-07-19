@@ -1,8 +1,8 @@
-@use "../../assets/base.scss";
-@use "../../assets/variables.scss" as *;
+@use "../../assets/base";
+@use "../../assets/variables" as *;
 
 .ticker-tracker {
-    border: $black-color 2px solid;
+    border: $border-color 2px solid;
     margin: 1rem;
     padding: 0.5rem;
     height: 90vh;
