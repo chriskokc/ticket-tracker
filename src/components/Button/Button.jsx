@@ -1,11 +1,11 @@
 import "./Button.scss";
 
-const Button = ({ buttonText, isMinus}) => {
+const Button = ({ buttonText, isMinus, buttonFunction}) => {
 
     let buttonStyle = isMinus ? "button button__secondary" : "button button__primary";
 
     return (
-        <button className={buttonStyle}>{buttonText}</button>
+        <button className={buttonStyle} onClick={buttonFunction}>{buttonText}</button>
     );
 };
 

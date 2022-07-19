@@ -12,8 +12,6 @@ const TickerTracker = () => {
         )
     });
 
-    console.log(employeesJSX);
-
     return (
         <div className="ticker-tracker">
             <h1 className="big-title">Ticket Tracker</h1>
