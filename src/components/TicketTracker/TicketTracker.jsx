@@ -5,8 +5,14 @@ import team from "../../team.js";
 const TickerTracker = () => {
 
     const employeesJSX = team.map(employee => {
-        return <Card employeeName={employee.name} employeeRole={employee.role} employeeKey={employee.id}/>
+        return (
+            <div className="card" key={employee.id}>
+                <Card employeeName={employee.name} employeeRole={employee.role}/> 
+            </div>
+        )
     });
+
+    console.log(employeesJSX);
 
     return (
         <div className="ticker-tracker">
