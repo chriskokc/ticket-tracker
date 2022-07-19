@@ -3,7 +3,10 @@
 
 .card {
     border: $border-color solid 2px;
+    margin: 0.5rem 0.3rem;
     padding: 0.2rem 0.3rem;
+    width: 15%;
+    height: 20%;
 
     &__content {
         font-size: 1rem;
