@@ -14,7 +14,7 @@ const TickerTracker = () => {
 
     return (
         <div className="ticker-tracker">
-            <h1 className="big-title">Ticket Tracker</h1>
+            <h1 className="big-title"> - Ticket Tracker -</h1>
 
             <div className="ticker-tracker__container">
                 {employeesJSX}

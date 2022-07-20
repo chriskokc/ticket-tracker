@@ -3,8 +3,8 @@
 
 .card {
     border: $border-color solid 2px;
-    box-shadow: 0.2rem 0.2rem 0 $shadow-color;
-    border-radius: 0.7rem;
+    box-shadow: 0.3rem 0.3rem 0 $shadow-color;
+    border-radius: 0.5rem;
     background-color: $card-color;
     display: grid;
     grid-template-rows: repeat(3, 26%);
@@ -20,7 +20,7 @@
 
         &--role {
             color: $shadow-color;
-            font-weight: 500;
+            font-weight: 400;
         }
 
     }
