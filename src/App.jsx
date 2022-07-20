@@ -1,11 +1,11 @@
 import "./App.scss";
-import TickerTracker from "./components/TicketTracker/TicketTracker";
+import TicketTracker from "./components/TicketTracker/TicketTracker";
 
 const App = () => {
 
   return (
     <main>
-      <TickerTracker />
+      <TicketTracker />
     </main>
   );
 };

@@ -2,15 +2,14 @@
 @use "../../assets/variables" as *;
 
 .counter {
-    border: $border-color solid 2px;
     padding: 0.2rem 0.3rem;
 
     &__title {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     &__value {
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: $counter-color;
     }
 }
@@ -23,7 +22,6 @@
     
         &__value {
             font-size: 1.5rem;
-
         }
     }
 }

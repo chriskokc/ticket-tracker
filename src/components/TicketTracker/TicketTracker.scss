@@ -2,19 +2,20 @@
 @use "../../assets/variables" as *;
 
 .ticker-tracker {
-    border: $border-color 2px solid;
     margin: 0.3rem auto 0;
     padding: 0.5rem;
    
     .big-title {
         width: 100%;
+        font-size: 3rem;
+        margin-bottom: 3rem;
     }
 
     &__container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 0.3rem;
+        gap: 1rem;
     }
     
 }
@@ -24,7 +25,7 @@
         padding: 0.5rem auto;
 
         .big-title {
-            font-size: 3rem;
+            font-size: 3.2rem;
         }
     }
    
